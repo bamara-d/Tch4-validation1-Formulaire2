@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form2.css" />
+    <title>Tâche de validation 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <form method="post" action="form2.php">
+          <legend><b>Set The Event</b></legend>
+          <div class="box1">
+            <label for="price">Price</label>
+            <input
+              class="in1"
+              type="text"
+              id="price"
+              name="price"
+              placeholder="$270"
+            />
+          </div>
+          <div class="box2">
+            <label for="people">People</label>
+            <select name="" id="">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+            </select>
+          </div>
+          <div class="box3">
+            <label for="name">Name</label>
+            <input
+              class="in3"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="John"
+            />
+          </div>
+          <div class="box4">
+            <label for="email">Mail</label>
+            <input class="in4" type="email" id="email" name="email" />
+          </div>
+          <div class="box5">
+            <label for="tel">Phone</label>
+            <input class="in5" type="tel" id="tel" name="tel" />
+          </div>
+          <div class="box6">
+            <label for="com">Comment</label>
+            <textarea
+              class="in6"
+              name="com"
+              id="com"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">SEND</button>
+        </form>
+      </div>
+      <div class="right">
+        <div class="up">
+          <img src="resto.jpg" alt="Une photo de restaurant" />
+        </div>
+        <div class="down">
+          <p>31 st East Street, New York, NY</p>
+          <p>T.987 2345743</p>
+          <p>T.INFO@YOURWEB.COM</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
